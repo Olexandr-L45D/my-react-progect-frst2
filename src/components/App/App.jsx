@@ -1,8 +1,9 @@
 
 import Header from "../Header/Header"
 import Product from "../Product/Product"
-
 import './App.css'
+import officers from "../../officers.json"
+import PilotList from "../ProductList/ProductList"
 
 export default function App() {
 
@@ -10,11 +11,11 @@ export default function App() {
     <>
       <Header />
       <h1> Hello </h1>
-      <Product />
-      <h2>React is web  an application</h2>
-      <p>glad to welcome you to react {5 * 5}</p>
 
-      <button>Button on Click</button>
+      <PilotList pilots={officers} />
+
+      <Product />
+
     </>
   )
 }
