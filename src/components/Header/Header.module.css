@@ -1,0 +1,13 @@
+.header {
+    padding: 10px;
+    margin: 10px;
+    color: blue;
+    background-color: chartreuse;
+}
+
+.headerTitle {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(76, 165, 120);
+    background-color: rgb(255, 0, 191);
+}

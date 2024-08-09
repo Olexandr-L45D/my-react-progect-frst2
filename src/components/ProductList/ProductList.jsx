@@ -1,8 +1,9 @@
 import PilotCard from "../PilotCard/PilotCard";
+import css from "./ProductList.module.css"
 
 export default function PilotList({ pilots }) {
     return (
-        <ul>
+        <ul className={css.list}>
             {pilots.map(item => {
                 return (
                     <li key={item.id}>
